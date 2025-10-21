@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Wooden Chair",
+        "price": 550,
+        "image": "images/woodchair.jpg"
+    },
+    {
+        "name": "Glass Table",
+        "price": 1500,
+        "image": "images/table.jpeg"
+    },
+    {
+        "name": "Leather Sofa",
+        "price": 3000,
+        "image": "images/sofa.jpg"
+    },
+    {
+        "name": "Stove",
+        "price": 2500,
+        "image": "images/stove.jpeg"
+    },
+    {
+        "name": "Microwave",
+        "price": 1200,
+        "image": "images/microwave.jpg"
+    },
+    {
+        "name": "Room Divider",
+        "price": 900,
+        "image": "images/roomdivider.jpg"
+    },
+    {
+        "name": "Fridge",
+        "price": 20000,
+        "image": "images/fridge.jpeg"
+    },
+    {
+        "name": "Bed",
+        "price": 7500,
+        "image": "images/bed.jpg"
+    },
+    {
+        "name": "Wardrobe",
+        "price": 2000,
+        "image": "images/waldrop.jpg"
+    },
+    {
+        "name": "Bedroom Set",
+        "price": 60000,
+        "image": "images/bedroomset.png"
+    }
+]

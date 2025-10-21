@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                    <h2>Login</h2>
+                    <form id="loginForm" onsubmit="return validateLogin()">
+                        <input type="email" class="input-box" id="loginEmail" placeholder="Your Email" required>
+                        <input type="password" class="input-box" id="loginPassword" placeholder="Password" required>
+                        <button type="submit" class="submit-btn">Submit</button>
+                        <input type="checkbox"><span>Remember Me</span>
+                        <p id="loginError" class="error-message"></p>
+                    </form>
+                    <button type="button" class="btn" onclick="openRegister()">I'm New Here</button>
+                    <a href="">Forgot Password?</a>
+                </div>
+                <div class="card-back">
+                    <h2>Register</h2>
+                    <form id="registerForm" onsubmit="return registerUser()">
+                        <input type="text" class="input-box" id="registerName" placeholder="Your Name" required>
+                        <input type="email" class="input-box" id="registerEmail" placeholder="Your Email" required>
+                        <input type="password" class="input-box" id="registerPassword" placeholder="Password" required>
+                        <button type="submit" class="submit-btn">Submit</button>
+                        <input type="checkbox"><span>Remember Me</span>
+                        <p id="registerError" class="error-message"></p>
+                    </form>
+                    <button type="button" class="btn" onclick="openLogin()">I have an account</button>
+                    <a href="">Forgot Password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
